@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.hero {
+    background: #1d1d1d;
+
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+}
+.card:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 12px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  background: #1d1d1d;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
