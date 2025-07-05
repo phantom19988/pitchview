@@ -5,8 +5,7 @@ body {
 }
 
 .hero {
-    background: #1d1d1d;
-
+   background: #1d1d1d;
   color: white;
   text-align: center;
   padding: 2rem 1rem;
@@ -64,7 +63,7 @@ body {
 footer {
   text-align: center;
   background: #1d1d1d;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 1rem;
   margin-top: 2rem;
   font-size: 0.9rem;
